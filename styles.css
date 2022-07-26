@@ -12,7 +12,6 @@
   }
 
   .nav {
-    overflow: hidden;
     background-color: rgb(204, 155, 155);
     position: fixed;
     top: 0;
@@ -34,4 +33,9 @@
     position: fixed;
     z-index: 1;
     margin: 1% 0% 0% 93%;
+  }
+
+  img {
+    height: 200px;
+    width: 150px;
   }
