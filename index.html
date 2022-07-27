@@ -44,50 +44,56 @@
     </header>
     <h1>This is a Mobile Phones shop</h1>
     <button id="home-button">Home</button>
-    <h2>IPhone 13</h2>
-    <img
-      id="picture"
-      src="https://itmag.ua/upload/iblock/ad6/9rh4rkb1jv7cilu3ub7jay3y8q8q6a7t/169u.jpg"
-    />
-    <br />
+    <div class="flex-container">
+      <div class="flex-item content-container" >
+        <h2>IPhone 13</h2>
+        <img
+          id="picture"
+          src="https://itmag.ua/upload/iblock/ad6/9rh4rkb1jv7cilu3ub7jay3y8q8q6a7t/169u.jpg"
+        />
+      <div class="buttons">
+        <button id="previous">previous</button>
+        <button id="next">next</button>
+        <button id="basket-button">add to basket</button><br />
+        <input id="text" />
+        <button id="button">add comment</button>
+        <p>Comments:</p>
+        <ul id="list"></ul>
+      </div>
+      </div>
+      <div class="flex-item content-container">
+        <h2>IPhone 11</h2>
+        <img
+          id="picture2"
+          src="https://m.media-amazon.com/images/I/41ldOwv3VaL._AC_SX425_.jpg"
+        />
+        <div class="buttons">
+        <button id="previous2">previous</button>
+        <button id="next2">next</button>
+        <button id="basket-button2">add to basket</button><br />
+        <input id="text2" />
+        <button id="button2">add comment</button>
+        <p>Comments:</p>
+        <ul id="list2"></ul>
+      </div>
+      </div>
+      <div class="flex-item content-container">
+        <h2>Basket:</h2>
+        <img
+          id="picture3"
+          src="https://as1.ftcdn.net/v2/jpg/04/23/49/80/1000_F_423498091_fYHu8iAlOrH2AVWNiZt0Ui60fVF6wkHR.jpg"
+        />
 
-    <button id="previous">previous</button>
-    <button id="next">next</button>
-    <button id="basket-button">add to basket</button><br />
-    <input id="text" />
-    <button id="button">add comment</button>
-    <p>Comments:</p>
-    <ul id="list"></ul>
-    <br />
-
-    <h2>IPhone 11</h2>
-    <img
-      id="picture2"
-      src="https://m.media-amazon.com/images/I/41ldOwv3VaL._AC_SX425_.jpg"
-    />
-    <br />
-    <button id="previous2">previous</button>
-    <button id="next2">next</button>
-    <button id="basket-button2">add to basket</button><br />
-    <input id="text2" />
-    <button id="button2">add comment</button>
-    <p>Comments:</p>
-    <ul id="list2"></ul>
-    <br />
-
-    <img
-      id="picture3"
-      src="https://as1.ftcdn.net/v2/jpg/04/23/49/80/1000_F_423498091_fYHu8iAlOrH2AVWNiZt0Ui60fVF6wkHR.jpg"
-    />
-    <h2>Basket:</h2>
-    <ul id="basket-list"></ul>
-    <br />
+        <ul id="basket-list"></ul>
+      </div>
+    </div>
     <h2 id="userstory">User Story</h2>
     <p>
       &quot;As a <strong>[type of user]</strong>, I want/need to
       <strong>[perform an action]</strong> so that
       <strong>[the intended result]</strong>.&quot;
     </p>
+
     <h3>Step 1: Searching for Solutions</h3>
     <p>
       During the discovery phase, users are searching online for a potential
@@ -98,19 +104,21 @@
       showcase them on your website.
     </p>
     <h3>User Stories:</h3>
-    <ul>
-      <p>
-        “As an eCommerce business owner, I need a solution that automates all
-        the repetitive tasks that come with inventory management, so I can free
-        up my schedule and focus on more important tasks.” “As a project manager
-        at a large company, I want a platform that comes with task delegation
-        functionality and a reporting feature, so I can track my remote team’s
-        progress more efficiently. “As a freelancer who works with clients
-        outside my country, I need a payment solution with low transaction fees
-        that allows me to invoice companies, so I can stop losing money on each
-        project I complete.”
-      </p>
-    </ul>
+
+    <p>
+      “As an eCommerce business owner, I need a solution that automates all the
+      repetitive tasks that come with inventory management, so I can free up my
+      schedule and focus on more important tasks.” <br>
+      “As a project manager at a
+      large company, I want a platform that comes with task delegation
+      functionality and a reporting feature, so I can track my remote team’s
+      progress more efficiently. <br>
+       “As a freelancer who works with clients outside
+      my country, I need a payment solution with low transaction fees that
+      allows me to invoice companies, so I can stop losing money on each project
+      I complete.”
+    </p>
+
     <h3>Step 2: Registering &amp; Creating an Account</h3>
     <p>
       As the user is about to register and start using your product for the
@@ -119,23 +127,19 @@
       integrations, and inviting others to the platform.
     </p>
     <h3>User Stories:</h3>
-    <ul>
-      <li>
+      <p>
         “As an eCommerce business owner, I want to easily synchronize my store
         with the inventory management platform during registration, so I don’t
-        have to add all of my products manually later.”
-      </li>
-      <li>
+        have to add all of my products manually later.” <br>
+      
         “As a project manager, I want to invite other team members to this
         project management platform, so they can help me review it and determine
-        if it helps them be more productive.”
-      </li>
-      <li>
+        if it helps them be more productive.” <br>
+      
         “As a freelancer, I want to be able to add two-step verification to the
         registration process to add an extra layer of security to my login and
         make sure no one else besides me has access to my payments/invoices.”
-      </li>
-    </ul>
+      </p>
     <h3>Step 3: Purchasing Your Product</h3>
     <p>
       In order to get users to convert into paying customers, there can’t be any
@@ -145,23 +149,23 @@
       them.
     </p>
     <h3>User Stories:</h3>
-    <ul>
-      <li>
+    <p>
+      
         “As an eCommerce business owner, I want to be reminded how many days are
         left in my free trial of the inventory management tool so that I know
         when I need to make my final decision.”
-      </li>
-      <li>
+      <br>
+      
         “As a project manager, I need a custom pricing plan since I manage many
         people in different departments at the same time and have complex
         needs.”
-      </li>
-      <li>
+      <br>
+      
         “As a freelancer, I want to be able to make my purchase via different
         methods (PayPal, credit card, bank transfer, etc.), so I can choose
         which one fits me the best.”
-      </li>
-    </ul>
+      
+    </p>
     <h3>Step 4: Onboarding</h3>
     <p>
       The onboarding process could make or break your user retention. The goal
@@ -169,23 +173,23 @@
       them to the features that are most important to them.
     </p>
     <h3>User Stories:</h3>
-    <ul>
-      <li>
+    <p>
+      
         “As an eCommerce business owner, I want to be able to go through a
         product tour of the inventory management tool so that I can get a clear
         understanding of its key benefits.”
-      </li>
-      <li>
+      <br>
+      
         “As a project manager, I want to create and delegate my first task as
         soon as possible (within the first 10 minutes), so I can instantly see
         the value that the product has to offer.”
-      </li>
-      <li>
+      <br>
+      
         “As a freelancer, I want to create a sample invoice first to get an idea
         of what the process would be like when invoicing clients and receiving
         payments.”
-      </li>
-    </ul>
+      
+    </p>
     <h3>Step 5: Retaining Users</h3>
     <p>
       Your product success depends on retaining customers long-term. Not only
@@ -193,24 +197,24 @@
       product is meeting the needs of your target audience.
     </p>
     <h3>User Stories:</h3>
-    <ul>
-      <li>
+    <p>
+      
         “As an eCommerce business owner, I need an inventory management solution
         that’s going to help me scale, so I can set up my store for long-term
         growth.”
-      </li>
-      <li>
+      <br>
+      
         “As a project manager, I want access to a knowledge base with resources
         such as webinars to better understand how my team can get the most out
         of the project management tool.”
-      </li>
-      <li>
+      <br>
+      
         “As a freelancer, I want my invoice/payment platform to provide me with
         weekly content on complex accounting processes (such as budgeting, cash
         flow, payment safety, and more), so I can learn to better manage my
         billing over time.”
-      </li>
-    </ul>
+      
+    </p>
 
     <script type="text/javascript" src="myscript.js"></script>
   </body>

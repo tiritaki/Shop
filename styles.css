@@ -38,4 +38,27 @@
   img {
     height: 200px;
     width: 150px;
+    
+  }
+
+  .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+  .flex-item {
+    background-color: rgb(228, 255, 105);
+    border-radius: 5%;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    margin-top: 2%;
   }
